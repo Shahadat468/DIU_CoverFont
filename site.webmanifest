@@ -1,0 +1,17 @@
+{
+  "name": "DIU CoverFront | DIU Cover Page Generator",
+  "short_name": "DIU CoverFront",
+  "description": "Create Daffodil International University cover pages, print them in A4, and merge them with assignment PDFs or images.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#131d36",
+  "theme_color": "#131d36",
+  "icons": [
+    {
+      "src": "/assets/diu-logo.png",
+      "sizes": "1000x265",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

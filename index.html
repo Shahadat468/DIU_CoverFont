@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DIU CoverFront | DIU Cover Page Generator</title>
+    <meta
+      name="description"
+      content="Create Daffodil International University cover pages for theory assignments, lab assignments, lab reports, and lab final reports. Preview live, print in A4, or merge with PDF and image files."
+    />
+    <meta
+      name="robots"
+      content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    />
+    <meta name="author" content="Shahadat Haque Fardin" />
+    <meta name="application-name" content="DIU CoverFront" />
+    <meta name="apple-mobile-web-app-title" content="DIU CoverFront" />
+    <meta name="theme-color" content="#131d36" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="canonical" id="canonical-link" href="/" />
+    <link rel="icon" type="image/png" href="./assets/diu-logo.png" />
+    <link rel="apple-touch-icon" href="./assets/diu-logo.png" />
+    <link rel="manifest" href="./site.webmanifest" />
+    <meta property="og:site_name" content="DIU CoverFront" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="DIU CoverFront | DIU Cover Page Generator" />
+    <meta
+      property="og:description"
+      content="Create DIU cover pages for theory assignments, lab assignments, lab reports, and lab final reports, then print or merge them with PDFs and images."
+    />
+    <meta property="og:url" id="og-url" content="/" />
+    <meta property="og:image" id="og-image" content="/assets/og-cover-preview.png" />
+    <meta property="og:image:alt" content="DIU CoverFront cover page preview" />
+    <meta property="og:image:width" content="1090" />
+    <meta property="og:image:height" content="1400" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="DIU CoverFront | DIU Cover Page Generator" />
+    <meta
+      name="twitter:description"
+      content="Generate and print A4 DIU cover pages, then merge them with assignment PDFs or image files."
+    />
+    <meta name="twitter:image" id="twitter-image" content="/assets/og-cover-preview.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script id="structured-data" type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "name": "DIU CoverFront",
+            "alternateName": "DIU Cover Page Generator",
+            "url": "/",
+            "description": "Create cover pages for Daffodil International University assignments, lab reports, and lab final reports."
+          },
+          {
+            "@type": "WebApplication",
+            "name": "DIU CoverFront",
+            "applicationCategory": "EducationalApplication",
+            "operatingSystem": "Web",
+            "browserRequirements": "Requires JavaScript",
+            "url": "/",
+            "image": "/assets/og-cover-preview.png",
+            "description": "Generate DIU cover pages, preview them live, print in A4, and merge them with assignment PDFs or images.",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "creator": {
+              "@type": "Person",
+              "name": "Shahadat Haque Fardin",
+              "url": "https://github.com/Shahadat468"
+            }
+          }
+        ]
+      }
+    </script>
+    <script>
+      (function () {
+        const origin = window.location.origin;
+        const normalizedPath = window.location.pathname.replace(/index\.html$/, "");
+        const canonicalUrl = `${origin}${normalizedPath.endsWith("/") ? normalizedPath : `${normalizedPath}/`}`;
+        const imageUrl = `${origin}/assets/og-cover-preview.png`;
+
+        document.getElementById("canonical-link").href = canonicalUrl;
+        document.getElementById("og-url").content = canonicalUrl;
+        document.getElementById("og-image").content = imageUrl;
+        document.getElementById("twitter-image").content = imageUrl;
+
+        const structuredData = {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebSite",
+              name: "DIU CoverFront",
+              alternateName: "DIU Cover Page Generator",
+              url: canonicalUrl,
+              description:
+                "Create cover pages for Daffodil International University assignments, lab reports, and lab final reports.",
+            },
+            {
+              "@type": "WebApplication",
+              name: "DIU CoverFront",
+              applicationCategory: "EducationalApplication",
+              operatingSystem: "Web",
+              browserRequirements: "Requires JavaScript",
+              url: canonicalUrl,
+              image: imageUrl,
+              description:
+                "Generate DIU cover pages, preview them live, print in A4, and merge them with assignment PDFs or images.",
+              offers: {
+                "@type": "Offer",
+                price: "0",
+                priceCurrency: "USD",
+              },
+              creator: {
+                "@type": "Person",
+                name: "Shahadat Haque Fardin",
+                url: "https://github.com/Shahadat468",
+              },
+            },
+          ],
+        };
+
+        document.getElementById("structured-data").textContent = JSON.stringify(structuredData);
+      })();
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <main style="max-width: 840px; margin: 40px auto; padding: 0 20px; font-family: Inter, sans-serif;">
+        <h1>DIU CoverFront</h1>
+        <p>
+          Create Daffodil International University cover pages for theory assignments, lab
+          assignments, lab reports, and lab final reports. This tool supports A4 printing and
+          merging the cover page with PDF or image files.
+        </p>
+      </main>
+    </noscript>
+    <div id="root"></div>
+
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+    <script src="https://unpkg.com/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+    <script type="text/babel" src="./app.js"></script>
+  </body>
+</html>
