@@ -1,5 +1,4 @@
-# Update this sitemap URL to your final production domain after deployment.
 User-agent: *
 Allow: /
 
-Sitemap: https://your-production-domain.vercel.app/sitemap.xml
+Sitemap: https://diu-cover-font.vercel.app/sitemap.xml
